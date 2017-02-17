@@ -1,7 +1,7 @@
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
 feedparser = (loadfile "./libs/feedparser.lua")()
-our_id = 157059515 -- Put Here Your ID
+our_id = 256331224 -- Put Here Your ID
 --ایدی خودتونو اینجا بزارید
 URL = require "socket.url"
 http = require "socket.http"
@@ -128,14 +128,14 @@ function create_config( )
     "plugins",
     "tools"
  },
-    sudo_users = {157059515},
+    sudo_users = {256331224},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》Beyond Self Bot V2
+    info_text = [[》mr Self Bot V2
 An fun bot based on BDReborn
 
-》https://github.com/BeyondTeam/Self-BotV2 
+》https://github.com/amirf2020/Self-BotV2
 
 》Admins :
 》@SoLiD ➣ Founder & Developer《
