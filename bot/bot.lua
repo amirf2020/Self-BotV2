@@ -1,7 +1,7 @@
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
 feedparser = (loadfile "./libs/feedparser.lua")()
-our_id = 256331224 -- Put Here Your ID
+our_id = 388118816 -- Put Here Your ID
 --ایدی خودتونو اینجا بزارید
 URL = require "socket.url"
 http = require "socket.http"
@@ -77,12 +77,12 @@ end
 function create_self( )
   self = {
     names = {
-    "solid",
-    "سلید",
-    "سولید",
-    "سعید",
-    "saeed",
-    "saeid"
+    "AMIR",
+    "امير",
+    "dash",
+    "amir",
+    "dada",
+    "virus"
     },
     answers = {
     "وات؟ :/",
